@@ -1,8 +1,8 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
-  const main = document.getElementById('main');
-  main.addEventListener('keydown', function(event) {
+  const input = document.getElementById('input');
+  input.addEventListener('keydown', function(event) {
     alert('Congrats!');
   })
 }
