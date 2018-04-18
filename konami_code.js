@@ -7,10 +7,10 @@ function init() {
     const key = partInt(e.detail || e.which || e.location);
     
     if(key === code[i]) {
-      index++;
+      i++;
       if (i === code.length) {
         alert('Congrats!');
-        index = 0;
+        i = 0;
       }
     } else {
       index = 0;
