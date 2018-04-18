@@ -5,7 +5,7 @@ let i = 0;
 function init() {
   const input = document.getElementById('input');
   input.addEventListener('keydown', function(e) {
-    if(input === code[i]) {
+    if(e === code[i]) {
       index++;
       if ( i === code.length) {
         alert('Congrats!');
