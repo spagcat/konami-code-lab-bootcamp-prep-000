@@ -4,7 +4,7 @@ let index = 0;
 
 function init() {
   function keyListener(e) {
-    const key = partInt(e.detail || e.which || e.location);
+    const key = parseInt(e.detail || e.which || e.location);
     
     if(key === code[index]) {
       index++;
