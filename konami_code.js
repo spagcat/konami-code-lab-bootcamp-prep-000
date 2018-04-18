@@ -5,15 +5,10 @@ function init() {
   input.addEventListener('keydown', function(e) {
     let index = 0;  
     keydown = parseInt(e.detail || e.which || e.location);
-  
-  if (keydown === code[index]) {
-    
+    if (keydown === code[index]) {
       index++;
-      
       if (index === code.length) {
-        
-        alert ("Congratulations!");
-        
+        alert ('Congratulations!');
         index = 0;
       }
     } else {
